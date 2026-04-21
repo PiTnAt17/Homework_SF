@@ -1,0 +1,66 @@
+# ===== Python =====
+
+**pycache**/
+*.py[cod]
+*.so
+
+# ===== Виртуальное окружение =====
+
+.venv/
+venv/
+env/
+
+# ===== Сборка =====
+
+build/
+dist/
+*.egg-info/
+
+# ===== Логи =====
+
+*.log
+
+# ===== Тесты / кеш =====
+
+.pytest_cache/
+.mypy_cache/
+.coverage
+
+# ===== IDE =====
+
+.vscode/*
+!.vscode/settings.json
+.idea/
+
+# ===== Секреты =====
+
+.env
+.secrets
+config.local.py
+
+# ===== ДАННЫЕ =====
+
+data/raw/
+data/tmp/
+!data/*.csv
+
+# ===== РЕЗУЛЬТАТЫ =====
+
+output/
+results/
+!output/*.png
+
+# ===== Базы данных =====
+
+*.db
+*.sqlite
+
+# ===== Jupyter =====
+
+.ipynb_checkpoints/
+
+# ===== Временные =====
+
+*.tmp
+*.bak
+*.swp
