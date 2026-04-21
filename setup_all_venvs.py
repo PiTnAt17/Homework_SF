@@ -9,7 +9,7 @@ projects = {
     "hh-resume-analysis": ["pandas", "numpy", "plotly", "scikit-learn"]
 }
 
-base_path = r"C:\Users\nulaa\Homework"
+base_path = r"C:\Users\nulaa\Homework_SF"
 
 
 def run(cmd, cwd):
