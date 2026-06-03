@@ -1,0 +1,9 @@
+build/
+*.exe
+*.o
+*.a
+*.so
+*.dll
+.DS_Store
+study_stats.json
+*.json.bak
