@@ -157,3 +157,5 @@ widgetsnbextension
 xarray
 xlrd
 zipp
+psycopg2
+sqlalchemy
